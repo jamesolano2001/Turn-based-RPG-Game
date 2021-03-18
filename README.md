@@ -12,6 +12,18 @@ Chemistry Crisis is a role-playing game, in which players can learn chemistry in
 
 ### Game rules
 ---
+-The player is tasked to defeat all 9 of the monsters on Earth.
+
+-Using different elemental attacks in a turn-based battle system to fight the monsters.
+
+-The health bar of each monster will be deducted depending on attack type.
+
+-After defeating the monster, the player will gain a gear that can add beneficial effects (ex attack boost, health increase, etc).
+
+-The player’s health bar will be reset before every battle.
+
+-After defeating the final boss monster, the total score of how well the player did is shown.
+
 ### Features & Coding requirements
 ---
 -Save/Load Game - Use of File I/O in order to save the name/level/status of the user. Information related to the player (ex. Current health, inventory, score, etc) will be saved in that file. Once the player opens up the game at a later time, the game will check if there exists a save-file, if one exists, then the game will input the file into the program to load the current progress of the player. 
