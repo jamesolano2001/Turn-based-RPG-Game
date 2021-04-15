@@ -4,8 +4,7 @@ using namespace std;
 
 class Player
 {
-public:
-    player(string,string,int,int);
+public:                            // these are just the basic stats of the player, still thinking of how to implement the stage/inventory
     void setName(string);
     void health(double);
     void maxHealth();
@@ -19,4 +18,5 @@ public:
     double playerHealth;
     double playerMaxHealth;
     int playerDamage;
+    int playerLevel;
 };
