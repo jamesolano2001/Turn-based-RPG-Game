@@ -14,9 +14,9 @@ public:                            // these are just the basic stats of the play
     double getMaxHealth();
     int getDamage();
     private:
-    string playerName;
-    double playerHealth;
-    double playerMaxHealth;
-    int playerDamage;
-    int playerLevel;
+    string pName;
+    double pHealth;
+    double pMaxHealth;
+    int pDamage;
+    int pLevel;
 };
