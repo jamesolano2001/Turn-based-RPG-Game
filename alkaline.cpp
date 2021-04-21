@@ -4,8 +4,7 @@ int main(){
     char choice;
     int players_healthbar=100;
     int monsters_healthbar=100;
-    cout << "This monster in front of you is contaminated by sulphuric acid, so it attacks people with its acidic saliva.";
-    cout << "The floor has 4 kinds of liquids. Which would you choose to use?"<<endl;
+    cout << "This monster in front of you is contaminated by sulphuric acid, so it attacks people with its acidic saliva. The floor has 4 kinds of liquids. Which would you choose to use?"<<endl;
     cout << "Your health bar: " << players_healthbar <<endl;
     cout << "Monster's health bar: " << monsters_healthbar <<endl;
     cout << "/╲/\\╭ºoꍘoº╮/\\╱\\"<< endl;
