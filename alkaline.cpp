@@ -38,7 +38,8 @@ int main(){
             players_healthbar-=25;
         }
     }
-    if((players_healthbar>monsters_healthbar) && (players_healthbar!=0)){
+    cout << "A is the correct answer as drain cleaners are made of sodium hydroxide, only NaOH is strong enough to neutralize and burn the monster." << endl;
+    if(players_healthbar>monsters_healthbar && players_healthbar!=0){
         cout << "You win!!!" <<endl;  
     }
     else{
