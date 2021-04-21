@@ -6,16 +6,16 @@ int main(){
     int monsters_healthbar=100;
     cout << "This monster in front of you is contaminated by sulphuric acid, so it attacks people with its acidic saliva.";
     cout << "The floor has 4 kinds of liquids. Which would you choose to use?"<<endl;
-    cout << "Your healthbar: " << players_healthbar <<endl;
-    cout << "Monster's healthbar: " << monsters_healthbar <<endl;
+    cout << "Your health bar: " << players_healthbar <<endl;
+    cout << "Monster's health bar: " << monsters_healthbar <<endl;
     cout << "/╲/\\╭ºoꍘoº╮/\\╱\\"<< endl;
     cout << "A) A drain cleaner" << endl;
     cout << "B) A bottle of liquid with a pungent smell" << endl;
     cout << "C) A liquid with reddish brown precipitate and rusty smell" << endl;
     cout << "D) A bottle of colorless liquid with vinegar smell" << endl;
     while(players_healthbar>0 && monsters_healthbar>0){
-        cout << "Your healthbar: " << players_healthbar <<endl;
-        cout << "Monster's healthbar: " << monsters_healthbar <<endl;
+        cout << "Your health bar: " << players_healthbar <<endl;
+        cout << "Monster's health bar: " << monsters_healthbar <<endl;
         cin >> choice;
         switch(choice){
             case 'A':
