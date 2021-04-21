@@ -23,22 +23,21 @@ int main(){
                 break;
             case 'B':
                 monsters_healthbar-=30;
+                players_healthbar-=25;
                 cout << "Only the saliva is neutralized" << endl;
                 break;
             case 'C':
                 monsters_healthbar-=30;
+                players_healthbar-=25;
                 cout << "Only the saliva is neutralized" << endl;
                 break;
             case 'D':
-                monsters_healthbar-=30;
+                players_healthbar-=50;
                 cout << "It did no harm:(" << endl;
                 break;
             default:
                 cout << "Invalid option" << endl;
                 cin >> choice;
-        }
-        if(monsters_healthbar>0){
-            players_healthbar-=25;
         }
     }
     cout << "A is the correct answer as drain cleaners are made of sodium hydroxide, only NaOH is strong enough to neutralize and burn the monster." << endl;
