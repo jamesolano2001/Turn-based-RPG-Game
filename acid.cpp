@@ -7,7 +7,7 @@ int main(){
     cout << "There is a pond in front of your house, but it was polluted by your hair dyes which contains ammonia.";
     cout << "The fishes living in the pond evoluted to creatures that eat humans." <<endl;
     cout << "However, you realised that they could only survive in an alkaline environment after your observation." << endl;
-    cout << "There are 4 bottles on the shelf in your storeroom. Which would you choose to use to ?"<<endl;
+    cout << "There are 4 bottles on the shelf in your storeroom. Which would you choose to pour into the pond?"<<endl;
     cout << "Your health bar: " << players_healthbar <<endl;
     cout << "Monster's health bar: " << monsters_healthbar <<endl;
     cout << "( |><_>   <_><|  |><_> )"<< endl;
