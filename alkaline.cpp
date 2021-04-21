@@ -23,12 +23,15 @@ int main(){
                 break;
             case 'B':
                 monsters_healthbar-=30;
+                cout << "Only the saliva is neutralized" << endl;
                 break;
             case 'C':
                 monsters_healthbar-=30;
+                cout << "Only the saliva is neutralized" << endl;
                 break;
             case 'D':
                 monsters_healthbar-=30;
+                cout << "It did no harm:(" << endl;
                 break;
             default:
                 cout << "Invalid option" << endl;
