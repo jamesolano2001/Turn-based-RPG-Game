@@ -2,9 +2,6 @@
 #include <string>
 #include <cstdlib>
 
-
-
-
 using namespace std;
 
 void clearscreen()
@@ -21,7 +18,6 @@ void options()
 	cout<<"2. Load Game"<<endl;
 	cout<<"3. Credits"<<endl;
 	cout<<"4. Exit"<<endl;
-	return;
 }
 
 void credits()
@@ -63,8 +59,5 @@ int main()
 				cout<<"Invalid option" <<endl;
 				break;
         }
-
     }
-
-
 }
