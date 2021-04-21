@@ -2,6 +2,9 @@
 #include <string>
 #include <cstdlib>
 
+
+
+
 using namespace std;
 
 void clearscreen()
@@ -9,15 +12,25 @@ void clearscreen()
     cout << "\033[2J\033[1;1H";
 }
 
+void title()
+{
+cout<<"_________ .__                   .__         __                  _________       .__       .__"<<endl;
+cout<<"\\_   ___ \\|  |__   ____   _____ |__| ______/  |________ ___.__. \\_   ___ \\______|__| _____|__| ______"<<endl;
+cout<<"/    \\  \\/|  |  \\_/ __ \\ /     \\|  |/  ___|   __\\_  __ <   |  | /    \\  \\|_  __ \\  |/  ___/  |/  ___/"<<endl;
+cout<<"\\     \\___|   Y  \\  ___/|  Y Y  \\  |\\___ \\ |  |  |  | \\/\\___  | \\     \\___|  | \\/  |\\___ \\|  |\\___ \\ "<<endl;
+cout<<" \\______  /___|  /\\___  >__|_|  /__/____  >|__|  |__|   / ____|  \\______  /__|  |__/____  >__/____  >"<<endl;
+cout<<"        \\/     \\/     \\/      \\/        \\/              \\/              \\/              \\/        \\/"<<endl;
+}
 
 void options()
 {
-	cout<<"Chemistry Crisis"<< endl;
+	title();
 	cout<<"----------------"<< endl;
 	cout<<"1. New Game"<<endl;
 	cout<<"2. Load Game"<<endl;
 	cout<<"3. Credits"<<endl;
 	cout<<"4. Exit"<<endl;
+	return;
 }
 
 void credits()
@@ -32,7 +45,7 @@ void credits()
 
 }
 
-int main()
+void titlescreen()
 {
 	clearscreen();
     int option;
@@ -59,5 +72,8 @@ int main()
 				cout<<"Invalid option" <<endl;
 				break;
         }
+
     }
+
+
 }
