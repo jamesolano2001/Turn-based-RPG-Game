@@ -1,34 +1,47 @@
 #include <iostream>
 #include <string>
-#include <stdlib.h>
+#include <cstdlib>
+
+
+
 
 using namespace std;
 
 void clearscreen()
 {
-    cout << string( 100, '\n' );
+    cout << "\033[2J\033[1;1H";
+}
+
+
+void options()
+{
+	cout<<"Chemistry Crisis"<< endl;
+	cout<<"----------------"<< endl;
+	cout<<"1. New Game"<<endl;
+	cout<<"2. Load Game"<<endl;
+	cout<<"3. Credits"<<endl;
+	cout<<"4. Exit"<<endl;
+	return;
 }
 
 void credits()
 {
+	int wait;
     clearscreen();
     cout<<"Coded by James and Wing"<<endl;
-    cout<<endl;
-    system("pause");
-    clearscreen();
-    return;
+	cout<<endl<<"Press any key to continue.."<<endl;
+	cin.ignore();
+	cin.get();
+	clearscreen();
+
 }
 
-void titlescreen()
+int main()
 {
-    int option = 0;
+	clearscreen();
+    int option;
     while ( option != 4 ){
-        cout<<"Chemistry Crisis"<< endl;
-        cout<<"----------------"<< endl;
-        cout<<"1. New Game"<<endl;
-        cout<<"2. Load Game"<<endl;
-        cout<<"3. Credits"<<endl;
-        cout<<"4. Exit"<<endl;
+		options();
         cout<<endl;
         cout<<"Option: ";
         cin >> option;
@@ -41,11 +54,17 @@ void titlescreen()
                 break;
             case 3:
                 credits();
-                option = 0;
                 break;
+			case 4:
+				clearscreen();
+				cout<<"Thanks for playing!"<<endl;
+				exit(0);
+			default:
+				cout<<"Invalid option" <<endl;
+				break;
         }
+
     }
-    cout<<"Thanks for playing!"<<endl;
-    exit(0);
-  
+
+
 }
