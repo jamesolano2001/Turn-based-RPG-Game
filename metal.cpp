@@ -24,6 +24,7 @@ int main(){
     cout << "B) Pour water" << endl;
     cout << "C) Steam" << endl;
     cout << "D) Pour alkalis" << endl;
+    cout << "Q) Quit" << endl;
     while(players_healthbar>0 && monsters_healthbar>0){
         cout << "Your health bar: " << players_healthbar <<endl;
         cout << "Monster's health bar: " << monsters_healthbar <<endl;
@@ -32,6 +33,13 @@ int main(){
           monsters_healthbar-=100;
           break;
         }
+        else if (choice=="Q"){
+            cout << "If you quit now, your score of this battle won't be saved. Are you sure? y/n" <<endl;
+            char ans;
+            cin >> ans;
+            if(ans=='y'){
+                return 0;
+            }
         else{
           monsters_healthbar-=10;
           players_healthbar-=25;
