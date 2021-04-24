@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
 #include <cstdlib>
-
+#include "titlescreen.h"
+#include "beginning.h"
 
 
 
@@ -56,7 +57,8 @@ void titlescreen()
         cin >> option;
         switch(option){
             case 1:
-                //newgame
+		clearscreen();
+		beginning();
                 break;
             case 2:
                 //loadgame
