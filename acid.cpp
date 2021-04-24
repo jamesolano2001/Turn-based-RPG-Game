@@ -12,6 +12,7 @@ int main(){
     cout << "B) Toilet bowl cleaner" << endl;
     cout << "C) Window cleaner" << endl;
     cout << "D) Milk" << endl;
+    cout << "Q) Quit" << endl;
     while(players_healthbar>0 && monsters_healthbar>0){
         cout << "Your health bar: " << players_healthbar <<endl;
         cout << "Monster's health bar: " << monsters_healthbar <<endl;
@@ -34,6 +35,17 @@ int main(){
                 players_healthbar-=25;
                 cout << "Only neutralized a tiny bit" << endl;
                 break;
+            case 'Q':
+                cout << "If you quit now, your score of this battle won't be saved. Are you sure? y/n" <<endl;
+                char ans;
+                cin >> ans;
+                if(ans=='y'){
+                    return 0;
+                }
+                else{
+                    cout<< "Invalid option" << endl;
+                    cin >> choice;
+                }
             default:
                 cout << "Invalid option" << endl;
                 cin >> choice;
