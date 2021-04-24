@@ -7,7 +7,7 @@ using namespace std;
 
 struct Player{
     string name;
-    vector<int> order;
+    int order[3];
     vector<string> inventory;
     int score;
     int stage;
