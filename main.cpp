@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#incldude "titlescreen.h"
+#include "titlescreen.h"
 
 
 using namespace std;
