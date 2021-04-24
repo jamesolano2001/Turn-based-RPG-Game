@@ -1,14 +1,11 @@
 #include <iostream>
 #include <string>
-
+#include "beginning.h"
+#include "titlescreen.h"
 
 
 using namespace std;
 
-void clearscreen()
-{
-    cout << "\033[2J\033[1;1H";
-}
 
 void monsters()
 {
@@ -74,15 +71,13 @@ void wizard()
 }
 void beginning()
 {
-	srand(time(NULL));
-
     string name;
+	cin.ignore();
     wizard();
-    cout<<"Welcome Chosen One, you have been summoned by the gods of Chemistria\nto save our planet."<<endl;
-    cin.ignore();
-
-    clearscreen();
-    wizard();
+	cout<<"Welcome Chosen One, you have been summoned by the gods of Chemistria\nto save our planet."<<endl;
+	cin.ignore();
+	clearscreen();
+	wizard();
     cout<<"Chosen one, what is thy name?"<<endl;
     cout<<"Name: ";
     getline(cin,name);
