@@ -2,16 +2,11 @@
 #include <string>
 #include <cstdlib>
 #include "titlescreen.h"
-#include "beginning.h"
-
+#include "clearscreen.h"
 
 
 using namespace std;
 
-void clearscreen()
-{
-    cout << "\033[2J\033[1;1H";
-}
 
 void title()
 {
@@ -58,10 +53,11 @@ void titlescreen()
         switch(option){
             case 1:
 		clearscreen();
-		beginning();
+		return;
                 break;
             case 2:
-                //loadgame
+		clearscreen();
+                return;
                 break;
             case 3:
                 credits();
