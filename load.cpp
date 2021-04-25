@@ -21,7 +21,7 @@ string loadi(string n){
   while (getline(myfile, line)){
     ++number_of_lines;
   }
-  for (int j = 1; j <= (number_of_lines-4); j++){
+  for (int j = 1; j <= (number_of_lines-6); j++){
     getline(f, line);
   }
   i = line;
@@ -44,7 +44,7 @@ int loadsc(string n){
   while (getline(myfile, line)){
     ++number_of_lines;
   }
-  for (int i = 1; i <= (number_of_lines-3); i++){
+  for (int i = 1; i <= (number_of_lines-5); i++){
     getline(f, line);
   }
   sc = atoi(line);
@@ -67,7 +67,7 @@ int loadst(string n){
   while (getline(myfile, line)){
     ++number_of_lines;
   }
-  for (int i = 1; i <= (number_of_lines-2); i++){
+  for (int i = 1; i <= (number_of_lines-4); i++){
     getline(f, line);
   }
   st = atoi(line);
@@ -90,12 +90,58 @@ int loado(string n){
   while (getline(myfile, line)){
     ++number_of_lines;
   }
-  for (int i = 1; i <= (number_of_lines-2); i++){
+  for (int i = 1; i <= (number_of_lines-3); i++){
     getline(f, line);
   }
   o = atoi(line);
   fin.close();
   return o;
+}
+
+int loadh(string n){
+  string filename=n+".txt"
+  int h;
+  ifstream fout;
+  fin.open(filename);
+  if (fin.fail()){
+    cout << "Fail loading" << endl;
+    exit(1);
+  }
+  string line;
+  int number_of_lines = 0;
+  ifstream myfile(filename);
+  while (getline(myfile, line)){
+    ++number_of_lines;
+  }
+  for (int i = 1; i <= (number_of_lines-2); i++){
+    getline(f, line);
+  }
+  h = atoi(line);
+  fin.close();
+  return h;
+}
+
+int loadmh(string n){
+  string filename=n+".txt"
+  int mh;
+  ifstream fout;
+  fin.open(filename);
+  if (fin.fail()){
+    cout << "Fail loading" << endl;
+    exit(1);
+  }
+  string line;
+  int number_of_lines = 0;
+  ifstream myfile(filename);
+  while (getline(myfile, line)){
+    ++number_of_lines;
+  }
+  for (int i = 1; i <= (number_of_lines-1); i++){
+    getline(f, line);
+  }
+  mh = atoi(line);
+  fin.close();
+  return mh;
 }
 
 int main(){
@@ -108,5 +154,7 @@ int main(){
   player.score = loadsc(player.name);
   player.stage = loadst(player.name);
   player.order = loado(player.name);
+  player.health = loadh(player.name);
+  player.maxHealth = loadmh(player.name);
   return 0;
 }
