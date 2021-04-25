@@ -5,6 +5,9 @@
 #include "clearscreen.h"
 #include "load.h"
 #include "beginning.h"
+#include "acidville.h"
+#include "alkalineville.h"
+#include "metalville.h"
 
 
 using namespace std;
@@ -60,6 +63,41 @@ void titlescreen()
             case 2:
 		clearscreen();
 		load();
+		switch(player.stage){
+			case 1:
+				if(player.order.at(0)=="1"){
+					acidville();
+				}
+				else if(player.order.at(0)=="2"){
+					alkalineville();
+				}
+				else if(player.order.at(0)=="3"){
+					metalville();
+				}
+				break;
+			case 2:
+				if(player.order.at(1)=="1"){
+					acidville();
+				}
+				else if(player.order.at(1)=="2"){
+					alkalineville();
+				}
+				else if(player.order.at(1)=="3"){
+					metalville();
+				}
+				break;
+			case 3:
+				if(player.order.at(2)=="1"){
+					acidville();
+				}
+				else if(player.order.at(2)=="2"){
+					alkalineville();
+				}
+				else if(player.order.at(2)=="3"){
+					metalville();
+				}
+				break;
+		}
                 break;
             case 3:
                 credits();
