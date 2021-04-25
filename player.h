@@ -1,5 +1,5 @@
-#ifndef TITLESCREEN_H
-#define TITLESCREEN_H
+#ifndef PLAYER_H
+#define PLAYER_H
 
 #include <vector>
 #include <string>
