@@ -2,6 +2,9 @@
 #include <string>
 #include <cstdlib>
 #include <time.h>
+#include "acidville.h"
+#include "player.h"
+#include "clearscreen.h"
 using namespace std;
 
 
@@ -30,10 +33,11 @@ void menu()
 	cout<<"3. Save"<<endl;
 }
 
-void townone()
+void acidville()
 {
 	int option = 0;
 	srand(time(NULL));
+	cout<<player.name<<endl;
 	while ( option != 1  ){
 		menu();
 		int random = rand()%2;
