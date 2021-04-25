@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
+#include "player.h"
 #include "beginning.h"
-#include "titlescreen.h"
-
+#include "clearscreen.h"
 
 using namespace std;
 
@@ -91,6 +91,7 @@ void beginning()
 
 		}
 	}
+	player.name = name;
     clearscreen();
     wizard();
     cout<<"So your name is "<<name<<"."<<" Very well, I shall explain to you what has happened"<<endl;
@@ -124,7 +125,9 @@ void beginning()
 		cin.ignore();
 		clearscreen();
 		cout<<"YOU DON'T HAVE A CHOICE :)"<<endl;
+		clearscreen();
 	}
+	return;
 
 
 }
