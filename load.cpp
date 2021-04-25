@@ -135,16 +135,16 @@ int loadmh(string n){
 }
 
 int main(){
-    player();
-    Player a;
+    string name;
     cout << "Welcome back, my friend:)" << endl;
     cout << "Please tell us your name" <<endl;
-    cin >> a.name;
-    a.inventory = loadi(a.name);
-    a.score = loadsc(a.name);
-    a.stage = loadst(a.name);
-    a.order = loado(a.name);
-    a.health = loadh(a.name);
-    a.maxHealth = loadmh(a.name);
+    cin >> name;
+    player.name=name;
+    player.inventory = loadi(player.name);
+    player.score = loadsc(player.name);
+    player.stage = loadst(player.name);
+    player.order = loado(player.name);
+    player.health = loadh(player.name);
+    player.maxHealth = loadmh(player.name);
     return 0;
 }
