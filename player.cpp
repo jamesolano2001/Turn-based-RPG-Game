@@ -12,6 +12,6 @@ struct Player{
     int score;
     int stage;
     int health;
-    int maxHealth
+    int maxHealth;
   
 };
