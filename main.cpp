@@ -47,8 +47,7 @@ int main()
 {
 	struct Player player;
 	randomgenerate();
-    titlescreen();
-	beginning();
+    	titlescreen();
 	acidville();
 
 }
