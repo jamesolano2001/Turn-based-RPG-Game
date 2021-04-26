@@ -6,6 +6,7 @@
 #include <iterator>
 #include <sstream>
 #include "player.h"
+#include "titlescreen.h"
 
 using namespace std;
 
@@ -16,7 +17,7 @@ vector<string> loadi(string n){
     fin.open(filename);
     if (fin.fail()){
         cout << "Fail loading" << endl;
-        exit(1);
+        titlescreen();
     }
     string line;
     ifstream myfile(filename);
@@ -138,7 +139,7 @@ void load(){
     string name;
     cout << "Welcome back, my friend:)" << endl;
     cout << "Please tell us your name" <<endl;
-    cin >> name;
+    getline(cin,name);
     player.name=name;
     player.inventory = loadi(player.name);
     player.score = loadsc(player.name);
