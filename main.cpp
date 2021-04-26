@@ -1,13 +1,13 @@
 #include <iostream>
 #include <string>
 #include "titlescreen.h"
-#include "beginning.h"
 #include "player.h"
 #include "acidville.h"
 #include "alkacity.h"
 #include "metalmetropolis.h"
 #include "chemistria.h"
 #include "clearscreen.h"
+#include "ending.h"
 
 using namespace std;
 
@@ -50,15 +50,18 @@ void townpath()
 {
 	int i = 0;
 	while (i < 3){
-		i = player.stage;
+		player.stage = i;
 		switch (player.order[i]+1){
 			case 1:
+
 				acidville();
 				break;
 			case 2:
+
 				alkacity();
 				break;
 			case 3:
+
 				metalmetropolis();
 				break;
 		}
@@ -69,13 +72,13 @@ void townpath()
 int main()
 {
 	int i = 0;
-	struct Player player;
+	player.set_health(100);
 	randomgenerate();
     titlescreen();
 	townpath();
 	clearscreen();
 	chemistria();
-	cout<<"The End";
+	ending();
 
 
 }
