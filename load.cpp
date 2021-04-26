@@ -135,7 +135,7 @@ void load(){
     player.name=name;
     //returning the info to the data structure
     player.score = loadsc(player.name);
-    player.stage = loadst(player.name);
+    player.stage = loadst(player.name)-1;
     player.order = loado(player.name);
     player.health = loadh(player.name);
     player.maxHealth = loadmh(player.name);
