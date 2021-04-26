@@ -2,6 +2,7 @@
 #include "acid.h"
 #include "acidville.h"
 #include "clearscreen.h"
+#include "player.h"
 using namespace std;
 
 void acid_battle()
@@ -71,5 +72,6 @@ void acid_battle()
 		cin.ignore();
 		acidville();
     }
+    player.score+=players_healthbar;
     return;
 }
