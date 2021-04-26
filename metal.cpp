@@ -1,7 +1,14 @@
 #include <iostream>
 #include <string>
+#include "metal.h"
+#include "clearscreen.h"
+#include "metalmetropolis.h"
 using namespace std;
-int main(){
+
+
+void metal_battle()
+{
+	clearscreen();
     string choice;
     int players_healthbar=100;
     int monsters_healthbar=100;
@@ -38,8 +45,9 @@ int main(){
             char ans;
             cin >> ans;
             if(ans=='y'){
-                return 0;
+                return;
             }
+		}
         else{
           monsters_healthbar-=10;
           players_healthbar-=25;
@@ -48,11 +56,17 @@ int main(){
     cout << "The seqence 'B C A' is the correct answer as lead only reacts with acids while zinc only reacts with steam." << endl;
     cout << "Kindly reminder: Alkalis only react with metal ions but not metals." << endl;
     if(players_healthbar>monsters_healthbar && players_healthbar!=0){
-        cout << "You win!!!" <<endl;  
+        cout << "You win!!!" <<endl;
+		cin.ignore();
+		cout << "Your score is " << players_healthbar <<endl;
+		cin.ignore();
     }
     else{
         cout << "You lose..." <<endl;
+		cout<<"You have been revived back to your recent checkpoint"<<endl;
+		cin.ignore();
+		metalmetropolis();
     }
-    cout << "Your score is " << players_healthbar <<endl;
-    return players_healthbar;
+	return;
+
 }
