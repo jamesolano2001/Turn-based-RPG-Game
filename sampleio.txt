@@ -1,0 +1,998 @@
+
+
+
+_________ .__                   .__         __                  _________       .__       .__
+\_   ___ \|  |__   ____   _____ |__| ______/  |________ ___.__. \_   ___ \______|__| _____|__| ______
+/    \  \/|  |  \_/ __ \ /     \|  |/  ___|   __\_  __ <   |  | /    \  \|_  __ \  |/  ___/  |/  ___/
+\     \___|   Y  \  ___/|  Y Y  \  |\___ \ |  |  |  | \/\___  | \     \___|  | \/  |\___ \|  |\___ \ 
+ \______  /___|  /\___  >__|_|  /__/____  >|__|  |__|   / ____|  \______  /__|  |__/____  >__/____  >
+        \/     \/     \/      \/        \/              \/              \/              \/        \/
+----------------
+1. New Game
+2. Load Game
+3. Credits
+4. Exit
+
+Option: 1
+
+
+
+
+
+                       .      
+             /^\     .        
+        /\   'V'              
+       /__\   I      O  o     
+      //..\\  I     .         
+      \].`[/  I               
+      /l\/j\  (]    .  O      
+     /. ~~ ,\/I          .    
+     \\L__j^\/I       o       
+      \/--v}  I     o   .     
+      |    |  I   _________   
+      |    |  I c(`       ')o 
+      |    l  I   \.     ,/   
+    _/j  L l\_!  _//^---^\\_  
+Welcome Chosen One, you have been summoned by the gods of Chemistria
+to save our planet.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       .      
+             /^\     .        
+        /\   'V'              
+       /__\   I      O  o     
+      //..\\  I     .         
+      \].`[/  I               
+      /l\/j\  (]    .  O      
+     /. ~~ ,\/I          .    
+     \\L__j^\/I       o       
+      \/--v}  I     o   .     
+      |    |  I   _________   
+      |    |  I c(`       ')o 
+      |    l  I   \.     ,/   
+    _/j  L l\_!  _//^---^\\_  
+Chosen one, what is thy name?
+Name: James
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       .      
+             /^\     .        
+        /\   'V'              
+       /__\   I      O  o     
+      //..\\  I     .         
+      \].`[/  I               
+      /l\/j\  (]    .  O      
+     /. ~~ ,\/I          .    
+     \\L__j^\/I       o       
+      \/--v}  I     o   .     
+      |    |  I   _________   
+      |    |  I c(`       ')o 
+      |    l  I   \.     ,/   
+    _/j  L l\_!  _//^---^\\_  
+So your name is James. Very well, I shall explain to you what has happened
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.    .    *  .   .  .   .  *     .  .        . .   .     .  *   .     .  .   .	
+   *  .    .    *  .     .         .    * .     .  *  .    .   .   *   . .    .	
+. *      .   .    .  .     .  *      .      .        .     .-o--.   .    *  .	
+ .  .        .     .     .      .    .     *      *   .   :O o O :      .     .	
+____   *   .    .      .   .           .  .   .      .    : O. Oo;    .   .		
+ `. ````.---...___      .      *    .      .       .   * . `-.O-'  .     * . .	
+   \_    ;   \`.-'```--..__.       .    .      * .     .       .     .        .	
+   ,'_,-' _,-'             ``--._    .   *   .   .  .       .   *   .     .  .	
+   -'  ,-'                       `-._ *     .       .   *  .           .    .	
+    ,-'            _,-._            ,`-. .    .   .     .      .     *    .   .	
+    '--.     _ _.._`-.  `-._        |   `_   .      *  .    .   .     .  .    .	
+        ;  ,' ' _  `._`._   `.      `,-''  `-.     .    .     .    .      .  .	
+     ,-'   \    `;.   `. ;`   `._  _/\___     `.       .    *     .    . *		
+     \      \ ,  `-'    )        `':_  ; \      `. . *     .        .    .    *	
+      \    _; `       ,;               __;        `. .           .   .     . .	
+       '-.;        __,  `   _,-'-.--'''  \-:        `.   *   .    .  .   *   .	
+          )`-..---'   `---''              \ `.        . .   .  .       . .  .	
+        .'                                 `. `.       `  .    *   .      .  .	
+       /                                     `. `.      ` *          .       .	
+      /                                        `. `.     '      .   .     *		
+     /                                           `. `.   _'.  .       .  .    .	
+    |                                              `._\-'  '     .        .  .	
+    |                                                 `.__, \  *     .   . *. .	
+    |                                                      \ \.    .         .	
+    |                                                       \ \ .     *       *	
+Earth was perfect 5000 years ago, before mankind populated the planet.
+Back then, the air, the trees, the wilderness were all clean and peaceful.
+
+
+
+
+
+
+
+
+
+
+until...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	    _.------.                        .----.__			
+           /         \_.       ._           /---.__  \		
+          |  O    O   |\\___  //|          /       `\ |		
+          |  .vvvvv.  | )   `(/ |         | o     o  \|		
+          /  |     |  |/      \ |  /|   ./| .vvvvv.  |\		
+         /   `^^^^^'  / _   _  `|_ ||  / /| |     |  | \		
+       ./  /|         | O)  O   ) \|| //' | `^vvvv'  |/\\	
+      /   / |         \        /  | | ~   \          |  \\	
+      \  /  |        / \ Y   /'   | \     |          |   ~	
+       `'   |  _     |  `._/' |   |  \     7        /		
+         _.-'-' `-'-'|  |`-._/   /    \ _ /    .    |		
+    __.-'            \  \   .   / \_.  \ -|_/\/ `--.|_		
+ --'                  \  \ |   /    |  |              `-		
+The monster nation attacked.. Soil erroded. Buildings deteriorated. Everything. Destroyed. An unknown entity had summoned such atrocious beings onto our very own soil
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       .      
+             /^\     .        
+        /\   'V'              
+       /__\   I      O  o     
+      //..\\  I     .         
+      \].`[/  I               
+      /l\/j\  (]    .  O      
+     /. ~~ ,\/I          .    
+     \\L__j^\/I       o       
+      \/--v}  I     o   .     
+      |    |  I   _________   
+      |    |  I c(`       ')o 
+      |    l  I   \.     ,/   
+    _/j  L l\_!  _//^---^\\_  
+With your strong chemistry skills, I'm sure you can save our planet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Are you ready? (Y/N)
+Y
+Good luck James
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  \  |  /         ___________			
+   ____________  \ \_# /         |  ___      |       _________	
+  |            |  \  #/          | |   |     |      | = = = = |	
+  | |   |   |  |   \\#           | |`v'|     |      |         |	
+  |            |    \#  //       |  --- ___  |      | |  || | |	
+  | |   |   |  |     #_//        |     |   | |      |         |	
+  |            |  \\ #_/_______  |     |   | |      | |  || | |	
+  | |   |   |  |   \\# /_____/ \ |      ---  |      |         |	
+  |            |    \# |+ ++|  | |  |~~~~~~| |      | |  || | |	
+  |            |    \# |+ ++|  | |  |~~~~~~| |      | |  || | |	
+~~|    (~~~~~) |~~~~~#~| H  |_ |~|  | |||| | |~~~~~~|         |	
+  |    ( ||| ) |     # ~~~~~~    |  | |||| | |      | ||||||| |	
+  ~~~~~~~~~~~~~________/  /_____ |  | |||| | |      | ||||||| |	
+                                 ~~~~~~~~~~~~~      | ||||||| |	
+Welcome to Alka City
+---------------------
+1. Venture forth into the sewers
+2. Rest
+3. Save
+1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This monster in front of you is contaminated by sulphuric acid, so it attacks people with its acidic saliva. The floor has 4 kinds of liquids. Which would you choose to use?
+Your health bar: 100
+Monster's health bar: 100
+/╲/\╭ºoꍘoº╮/\╱\
+A) A drain cleaner
+B) A bottle of liquid with a pungent smell
+C) A liquid with reddish brown precipitate and rusty smell
+D) A bottle of colorless liquid with vinegar smell
+Q) Quit
+Your health bar: 100
+Monster's health bar: 100
+A
+A is the correct answer as drain cleaners are made of sodium hydroxide, only NaOH is strong enough to neutralize and burn the monster.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You win!!!
+
+Your score is 100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ~         ~~          __         
+       _T      .,,.    ~--~ ^^      
+ ^^   // \                    ~      
+      ][O]    ^^      ,-~ ~          
+   /''-I_I         _II____           
+__/_  /   \ ______/ ''   /'\_,__     
+  | II--'''' \,--:--..,_/,.-{ },     
+; '/__\,.--';|   |[] .-.| O{ _ }     
+:' |  | []  -|   ''--:.;[,.'\,/      
+'  |[]|,.--'' '',   ''-,.    |       
+  ..    ..-''    ;       ''. '       
+Welcome to Acid Ville
+---------------------
+1. Venture forth into the forest
+2. Rest
+3. Save
+1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+There is a pond in front of your house, but it was polluted by your hair dyes which contains ammonia. The fishes living in the pond evoluted to creatures that eat humans. However, you realised that they could only survive in an alkaline environment after your observation. There are 4 bottles on the shelf in your storeroom. Which would you choose to pour into the pond?
+Your health bar: 100
+Monster's health bar: 100
+( |><_>   <_><|  |><_> )
+A) Coke
+B) Toilet bowl cleaner
+C) Window cleaner
+D) Milk
+Q) Quit
+Your health bar: 100
+Monster's health bar: 100
+B
+B is the correct answer as toilet bowl cleaners are acidic enough to neutralize the pond.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You win!!!
+
+Your score is 100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       .|						
+                       | |						
+                       |'|            ._____		
+               ___    |  |            |.   |' .---'|	
+       _    .-'   '-. |  |     .--'|  ||   | _|    |	
+    .-'|  _.|  |    ||   '-__  |   |  |    ||      |	
+    |' | |.    |    ||       | |   |  |    ||      |	
+ ___|  '-'     '           '-'   '-.'    '`      |____	
+Welcome to Metal Metropolis
+---------------------------
+1. Venture forth into the alleyways
+2. Rest
+3. Save
+2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zzzZZZ... zzzZZZZZzz... zzzZZZ.....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ouch! The radioactive cockroache have infested the house! What an awful nap!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       .|						
+                       | |						
+                       |'|            ._____		
+               ___    |  |            |.   |' .---'|	
+       _    .-'   '-. |  |     .--'|  ||   | _|    |	
+    .-'|  _.|  |    ||   '-__  |   |  |    ||      |	
+    |' | |.    |    ||       | |   |  |    ||      |	
+ ___|  '-'     '           '-'   '-.'    '`      |____	
+Welcome to Metal Metropolis
+---------------------------
+1. Venture forth into the alleyways
+2. Rest
+3. Save
+1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+When you were walking in the forest, you have been surrounded by a bunch of 'worms'. They got metallic shells as the soil is polluted by heavy metals. Their shells have 3 layers. The inner one is made of lead, then it is zinc. The outter layer is potassium. How would you attack it?
+(please type out your answer like this: ABC )
+Your health bar: 50
+Monster's health bar: 100
+                                                /~~\
+  ____                                         /'o  |
+.~  | `\             ,-~~~\~-_               ,'  _/'|
+`\_/   /'\         /'`\    \  ~,             |     .'
+    `,/'  |      ,'_   |   |   |`\          ,'~~\  |
+     |   /`:     |  `\ /~~~~\ /   |        ,'    `.'
+     | /'  |     |   ,'      `\  /`|      /'\    /
+     `|   / \_ _/ `\ |         |'   `----\   |  /'
+      `./'  | ~ |   ,'         |    |     |  |/'
+       `\   |   /  ,'           `\ /      |/~'
+         `\/_ /~ _/               `~------'
+A) Pour acids
+B) Pour water
+C) Steam
+D) Pour alkalis
+Q) Quit
+Your health bar: 50
+Monster's health bar: 100
+BCA
+The seqence 'B C A' is the correct answer as lead only reacts with acids while zinc only reacts with steam.
+Kindly reminder: Alkalis only react with metal ions but not metals.
+
+
+
+
+
+
+
+
+
+
+
+You win!!!
+
+Your score is 50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   ___    /\				
+                  `---|  /%%\/\				
+                     ,`./,--.\%\				
+                    /%%%\|  |--.\			
+                   /,---.|[]|  |				
+                    |]_'||__| [|				
+                    ||]|[|]|[| |				
+               ._..-':\._ ''/`-'.._.			
+        ._._.  |  _.:''|-'`|-..__.:|  ._._.		
+        '._,'_.''_    _|  _| .-. ``'._'._.'		
+         | |_  ,'.\  '-| '-| |_|   [] _| |		
+    _____|]|-'|,++:_   ||] |_     _  '-|[|_________	
+    ~  ,-|`|  |+++|-'  |  _|-'   '-'   |.|  ~      	
+      ~) |_|__||  |    ; '-:         __|_|`-.___ ~	
+    _  \-._..''`--:.__/-'   \__..--''    __...-,'__	
+     `-,-'    _.-'-.   `---''   _____..')..-~~'|\	
+       `-._.-'`-._'`)         ,'`_..-~~' ~_____;'	
+            `. ~~ `.`.________`.( ~~  ___)		
+              )    ~`.\ '  '    ,'  ~\			
+            ,'|  ~    ')__:__:_( ~   |)			
+             `-...______________....-'			
+Welcome to the Castle of Chemistria
+-----------------------------------
+1. Face against the cause of the calamity
+2. Rest
+3. Save
+2
+
+
+
+
+
+
+
+
+
+
+Gulp.. Gulp... Gulp......
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Health is now full, that potion was delicious!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   ___    /\				
+                  `---|  /%%\/\				
+                     ,`./,--.\%\				
+                    /%%%\|  |--.\			
+                   /,---.|[]|  |				
+                    |]_'||__| [|				
+                    ||]|[|]|[| |				
+               ._..-':\._ ''/`-'.._.			
+        ._._.  |  _.:''|-'`|-..__.:|  ._._.		
+        '._,'_.''_    _|  _| .-. ``'._'._.'		
+         | |_  ,'.\  '-| '-| |_|   [] _| |		
+    _____|]|-'|,++:_   ||] |_     _  '-|[|_________	
+    ~  ,-|`|  |+++|-'  |  _|-'   '-'   |.|  ~      	
+      ~) |_|__||  |    ; '-:         __|_|`-.___ ~	
+    _  \-._..''`--:.__/-'   \__..--''    __...-,'__	
+     `-,-'    _.-'-.   `---''   _____..')..-~~'|\	
+       `-._.-'`-._'`)         ,'`_..-~~' ~_____;'	
+            `. ~~ `.`.________`.( ~~  ___)		
+              )    ~`.\ '  '    ,'  ~\			
+            ,'|  ~    ')__:__:_( ~   |)			
+             `-...______________....-'			
+Welcome to the Castle of Chemistria
+-----------------------------------
+1. Face against the cause of the calamity
+2. Rest
+3. Save
+1
+
+
+
+
+
+
+
+
+
+
+You're final battle is against the creator! Only an attack as strong as a nuke can kill him!
+Your health bar: 100
+Monster's health bar: ???
+                       .      
+             /^\     .        
+        /\   'V'              
+       /__\   I      O  o     
+      //..\\  I     .         
+      \].`[/  I               
+      /l\/j\  (]    .  O      
+     /. ~~ ,\/I          .    
+     \\L__j^\/I       o       
+      \/--v}  I     o   .     
+      |    |  I   _________   
+      |    |  I c(`       ')o 
+      |    l  I   \.     ,/   
+    _/j  L l\_!  _//^---^\\_  
+A) Summon an acidic monster to kill him
+B) Craft a Calcium bomb
+C) Use a Plutonium-239 RPG
+D) Punch him with a fist full of Uranium-238
+Q) Quit
+Your health bar: 100
+Monster's health bar: ???
+C
+One-hit KO!
+You did it!
+Your score is 100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       .      
+             /^\     .        
+        /\   'V'              
+       /__\   I      O  o     
+      //..\\  I     .         
+      \]^`[/  I               
+      /l\/j\  (]    .  O      
+     /. ~~ ,\/I          .    
+     \\L__j^\/I       o       
+      \/--v}  I     o   .     
+      |    |  I   _________   
+      |    |  I c(`       ')o 
+      |    l  I   \.     ,/   
+    _/j  L l\_!  _//^---^\\_  
+YOU FOOL! I HAVE REVIVED USING THE POWER OF ALL THE MONSTERS, THE WORLD SHALL BE DESTROYED NOW!!!
+True despair has been brought upon the planet, there is no way out. Try again, next game...
+Total score: 350
+
+Thank you for playing!
