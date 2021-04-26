@@ -92,7 +92,7 @@ void acidville()
 	}
 	if (option == "1")
 		acid_battle();
-	else (option == "2")
+	else (option == "3")
 		save();
 
 }
