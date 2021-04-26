@@ -85,8 +85,8 @@ void beginning()
 		clearscreen();
 	    wizard();
 		cout<<"Don't be shy, tell me your name Chosen One."<<endl;
+		cout<<"Name: ";
 		while (name.empty()){
-			cout<<"Name: ";
 			getline(cin,name);
 
 		}
@@ -106,7 +106,8 @@ void beginning()
 	cin.ignore();
 	clearscreen();
 	monsters();
-	cout<<"The monster nation attacked.. Soil erroded. Buildings deteriorated. Everything. Destroyed.";
+	cout<<"The monster nation attacked.. Soil erroded. Buildings deteriorated. Everything. Destroyed. ";
+	cout<<"An unknown entity had summoned such atrocious beings onto our very own soil"<<endl;
 	cin.ignore();
 	clearscreen();
 	wizard();
@@ -118,13 +119,25 @@ void beginning()
 	char yn;
 	cin >> yn;
 	if (yn == 'Y'){
+		cin.ignore();
 		cout<<"Good luck "<<name<<endl;
+		cin.ignore();
+		clearscreen();
 	}
-	else{
+	else if ( yn == 'N'){
+		cin.ignore();
 		cout<<"That is unfortunate"<<endl;
 		cin.ignore();
 		clearscreen();
+		cin.ignore();
 		cout<<"YOU DON'T HAVE A CHOICE :)"<<endl;
+		cin.ignore();
+		clearscreen();
+	}
+	else{
+		cin.ignore();
+		cout<<"I'll take that as a yes then "<<name<<endl;
+		cin.ignore();
 		clearscreen();
 	}
 	return;
