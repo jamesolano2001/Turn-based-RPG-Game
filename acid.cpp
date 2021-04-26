@@ -1,10 +1,16 @@
 #include <iostream>
+#include "acid.h"
+#include "acidville.h"
+#include "clearscreen.h"
 using namespace std;
-int main(){
+
+void acid_battle()
+{
+	clearscreen();
     char choice;
     int players_healthbar=100;
     int monsters_healthbar=100;
-    cout << "There is a pond in front of your house, but it was polluted by your hair dyes which contains ammonia. The fishes living in the pond evoluted to creatures that eat humans. However, you realised that they could only survive in an alkaline environment after your observation. There are 4 bottles on the shelf in your storeroom. Which would you choose to pour into the pond?"<<endl;
+    cout<<"There is a pond in front of your house, but it was polluted by your hair dyes which contains ammonia. The fishes living in the pond evoluted to creatures that eat humans. However, you realised that they could only survive in an alkaline environment after your observation. There are 4 bottles on the shelf in your storeroom. Which would you choose to pour into the pond?"<<endl;
     cout << "Your health bar: " << players_healthbar <<endl;
     cout << "Monster's health bar: " << monsters_healthbar <<endl;
     cout << "( |><_>   <_><|  |><_> )"<< endl;
@@ -40,7 +46,7 @@ int main(){
                 char ans;
                 cin >> ans;
                 if(ans=='y'){
-                    return 0;
+                    return ;
                 }
                 else{
                     cout<< "Invalid option" << endl;
@@ -52,12 +58,18 @@ int main(){
         }
     }
     cout << "B is the correct answer as toilet bowl cleaners are acidic enough to neutralize the pond." << endl;
+	cin.ignore();
     if(players_healthbar>monsters_healthbar && players_healthbar!=0){
-        cout << "You win!!!" <<endl;  
+        cout << "You win!!!" <<endl;
+		cin.ignore();
+		cout << "Your score is " << players_healthbar <<endl;
+	   	cin.ignore();
     }
     else{
         cout << "You lose..." <<endl;
+		cout<<"You have been revived back to your recent checkpoint"<<endl;
+		cin.ignore();
+		acidville();
     }
-    cout << "Your score is " << players_healthbar <<endl;
-    return players_healthbar;
+    return;
 }
