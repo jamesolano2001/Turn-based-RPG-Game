@@ -71,7 +71,7 @@ void titlescreen()
             case 2:
 				clearscreen();
                 load();
-                break;
+                return;
             case 3:
                 credits();
                 break;
