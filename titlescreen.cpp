@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include "titlescreen.h"
 #include "clearscreen.h"
+#include "load.h"
 
 
 using namespace std;
@@ -65,10 +66,12 @@ void titlescreen()
         switch(stoi(option)){
             case 1:
 		clearscreen();
+		beginning();
 		return;
                 break;
             case 2:
 		clearscreen();
+		load();
                 return;
                 break;
             case 3:
