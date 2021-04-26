@@ -90,9 +90,11 @@ void acidville()
 			clearscreen();
 		}
 	}
-	if (option == "1")
+	if (option == "1"){
 		acid_battle();
-	else (option == "3")
+		return;
+	}
+	if (option =="3")
 		save();
 
 }
