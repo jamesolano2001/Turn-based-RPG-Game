@@ -63,6 +63,7 @@ void acid_battle()
     cout << "B is the correct answer as toilet bowl cleaners are acidic enough to neutralize the pond." << endl;
 	cin.ignore();
     if(players_healthbar>monsters_healthbar && players_healthbar!=0){
+	clearscreen();
         cout << "You win!!!" <<endl;
 		cin.ignore();
 		player.score += players_healthbar;
@@ -70,6 +71,7 @@ void acid_battle()
 	   	cin.ignore();
     }
     else{
+	clearscreen();
         cout << "You lose..." <<endl;
 		cout<<"You have been revived back to your recent checkpoint"<<endl;
 		cin.ignore();
