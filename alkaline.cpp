@@ -2,6 +2,7 @@
 #include "alkaline.h"
 #include "alkacity.h"
 #include "clearscreen.h"
+#include "player.h"
 using namespace std;
 void alkaline_battle(){
 	clearscreen();
@@ -56,6 +57,7 @@ void alkaline_battle(){
         }
     }
     cout << "A is the correct answer as drain cleaners are made of sodium hydroxide, only NaOH is strong enough to neutralize and burn the monster." << endl;
+    player.score+=players_healthbar;
     if(players_healthbar>monsters_healthbar && players_healthbar!=0){
         cout << "You win!!!" <<endl;
 		cin.ignore();
@@ -68,5 +70,6 @@ void alkaline_battle(){
 		cin.ignore();
 		alkacity();
     }
+    
     return;
 }
