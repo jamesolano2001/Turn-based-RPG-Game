@@ -146,5 +146,5 @@ void load(){
     player.order = loado(player.name);
     player.health = loadh(player.name);
     player.maxHealth = loadmh(player.name);
-    return 0;
+    return;
 }
