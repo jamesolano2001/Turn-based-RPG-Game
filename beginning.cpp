@@ -3,6 +3,7 @@
 #include "player.h"
 #include "beginning.h"
 #include "clearscreen.h"
+#include "titlescreen.h"
 
 using namespace std;
 
