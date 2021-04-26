@@ -63,6 +63,7 @@ void final_battle()
                 break;
         }
     }
+    player.score+=players_healthbar;
     if(players_healthbar>monsters_healthbar && players_healthbar!=0){
         cout << "You did it!" <<endl;
 		cin.ignore();
