@@ -4,6 +4,7 @@
 #include <time.h>
 #include "metalmetropolis.h"
 #include "clearscreen.h"
+#include "player.h"
 #include "metal.h"
 #include "save.h"
 using namespace std;
@@ -25,7 +26,7 @@ void mm_menu()
 {
 	mm_town();
 	cout<<"Welcome to Metal Metropolis"<<endl;
-	cout<<"---------------------"<<endl;
+	cout<<"---------------------------"<<endl;
 	cout<<"1. Venture forth into thee alleyways"<<endl;
 	cout<<"2. Rest"<<endl;
 	cout<<"3. Save"<<endl;
@@ -58,11 +59,13 @@ void metalmetropolis()
 			clearscreen();
 			if ( random == 0){
 				cout<<"Health is now full, that was a good nap!"<<endl;
+				player.health = player.maxHealth;
 				cin.ignore();
 				clearscreen();
 			}
 			else{
 				cout<<"Ouch! The bed bugs have infested the house! What an awful nap!"<<endl;
+				player.health = (player.maxHealth/2);
 				cin.ignore();
 				clearscreen();
 			}
@@ -86,9 +89,11 @@ void metalmetropolis()
 			clearscreen();
 		}
 	}
-	if (option == "1")
+	if (option == "1"){
 		metal_battle();
-	else if(option == "3")
+		return;
+	}
+	if (option =="3")
 		save();
 
 }
