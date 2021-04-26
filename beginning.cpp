@@ -82,7 +82,7 @@ void beginning()
     cout<<"Chosen one, what is thy name?"<<endl;
     cout<<"Name: ";
     getline(cin,name);
-	if (name.empty()){
+	if (name.empty()){					//checks to see if input is empty
 		clearscreen();
 	    wizard();
 		cout<<"Don't be shy, tell me your name Chosen One."<<endl;
@@ -96,7 +96,7 @@ void beginning()
     clearscreen();
     wizard();
     cout<<"So your name is "<<name<<"."<<" Very well, I shall explain to you what has happened"<<endl;
-	cin.ignore();
+	cin.ignore();													//cin.ignore is used to separate scenes
 	clearscreen();
 	world();
 	cout<<"Earth was perfect 5000 years ago, before mankind populated the planet."<<endl;
