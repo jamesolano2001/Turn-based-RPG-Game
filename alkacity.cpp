@@ -5,6 +5,7 @@
 #include "alkacity.h"
 #include "clearscreen.h"
 #include "alkaline.h"
+#include "save.h"
 using namespace std;
 
 
@@ -94,5 +95,7 @@ void alkacity()
 	}
 	if (option =="1")
 		alkaline_battle();
+	else if(option == "3")
+		save();
 
 }
