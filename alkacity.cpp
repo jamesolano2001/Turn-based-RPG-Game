@@ -34,7 +34,7 @@ void ac_menu()
 	cout<<"Welcome to Alka City"<<endl;
 	cout<<"---------------------"<<endl;
 	cout<<"1. Venture forth into thee sewers"<<endl;
-	cout<<"2. Rest"<<endl;
+	cout<<"2. Reset"<<endl;
 	cout<<"3. Save"<<endl;
 }
 bool accheckInput(string option)
