@@ -3,6 +3,7 @@
 #include <vector>
 #include <fstream>
 #include "player.h"
+#include "titlescreen.h"
 
 using namespace std;
 
@@ -21,4 +22,5 @@ void save(){
     fout << player.health <<endl;
     fout << player.maxHealth <<endl;
     fout.close();
+    titlescreen();
 }
