@@ -60,6 +60,7 @@ void acid_battle()
     }
     cout << "B is the correct answer as toilet bowl cleaners are acidic enough to neutralize the pond." << endl;
 	cin.ignore();
+    player.score+=players_healthbar;
     if(players_healthbar>monsters_healthbar && players_healthbar!=0){
         cout << "You win!!!" <<endl;
 		cin.ignore();
@@ -72,6 +73,5 @@ void acid_battle()
 		cin.ignore();
 		acidville();
     }
-    player.score+=players_healthbar;
     return;
 }
