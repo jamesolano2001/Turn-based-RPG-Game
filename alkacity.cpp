@@ -33,7 +33,7 @@ void ac_menu()
 	ac_town();
 	cout<<"Welcome to Alka City"<<endl;
 	cout<<"---------------------"<<endl;
-	cout<<"1. Venture forth into thee sewers"<<endl;
+	cout<<"1. Venture forth into the sewers"<<endl;
 	cout<<"2. Rest"<<endl;
 	cout<<"3. Save"<<endl;
 }
@@ -70,7 +70,7 @@ void alkacity()
 				clearscreen();
 			}
 			else{
-				cout<<"Ouch! The bed bugs have infested the house! What an awful nap!"<<endl;
+				cout<<"Ouch! The slimy catepillars have infested the house! What an awful nap!"<<endl;
 				player.health = (player.maxHealth/2);
 				cin.ignore();
 				clearscreen();
