@@ -25,7 +25,7 @@ void av_town()
     cout<<"  ..    ..-''    ;       ''. '       "<<endl;
 }
 
-void av_menu()
+void av_menu()					//outputs the ascii art and the menu
 {
 	av_town();
 	cout<<"Welcome to Acid Ville"<<endl;
@@ -34,7 +34,7 @@ void av_menu()
 	cout<<"2. Rest"<<endl;
 	cout<<"3. Save"<<endl;
 }
-bool avcheckInput(string option)
+bool avcheckInput(string option)		//checks to see if the input is valid by checking if numbers are inputted instead of letters
 {
 	for (int i = 0; i < option.length();i++){
 		if (!isdigit(option[i]))
@@ -53,7 +53,7 @@ void acidville()
 			cout<<"Invalid input"<<endl;
 			cin >> option;
 		}
-		int random = rand()%2;
+		int random = rand()%2;					//randomizes the chance of getting a full rest or a half rest
 		if ( option == "2" && rest == true ){
 			cin.ignore();
 			clearscreen();
@@ -74,7 +74,7 @@ void acidville()
 			}
 			rest = false;
 		}
-		else if ( option == "2"){
+		else if ( option == "2"){		//only allows the player to get one chance of getting a rest
 			cin.ignore();
 			clearscreen();
 			cout<<"No more rests left!"<<endl;
