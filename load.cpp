@@ -139,6 +139,7 @@ void load(){
     string name;
     cout << "Welcome back, my friend:)" << endl;
     cout << "Please tell us your name" <<endl;
+    cin.ignore();
     getline(cin,name);
     player.name=name;
     player.inventory = loadi(player.name);
