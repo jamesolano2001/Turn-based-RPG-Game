@@ -68,6 +68,10 @@ void townpath()
 		clearscreen();
 		i++;
 	}
+	if (player.stage==3){
+		chemistria();
+		i+=1;
+	}
 }
 int main()
 {
@@ -77,7 +81,6 @@ int main()
     titlescreen();
 	townpath();
 	clearscreen();
-	chemistria();
 	ending();
 
 
