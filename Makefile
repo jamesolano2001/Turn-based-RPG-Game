@@ -11,7 +11,7 @@ player.o : player.cpp player.h
 titlescreen.o : titlescreen.cpp titlescreen.h beginning.h clearscreen.h
 	g++ $(FLAGS) -c $<
 
-beginning.o : beginning.cpp beginning.h player.h clearscreen.h
+beginning.o : beginning.cpp beginning.h player.h clearscreen.h titlescreen.h
 	g++ $(FLAGS) -c $<
 
 acidville.o : acidville.cpp acidville.h player.h clearscreen.h acid.h save.h
