@@ -60,6 +60,7 @@ void alkaline_battle(){
     }
     cout << "A is the correct answer as drain cleaners are made of sodium hydroxide, only NaOH is strong enough to neutralize and burn the monster." << endl;
     if(players_healthbar>monsters_healthbar && players_healthbar!=0){
+	clearscreen();
         cout << "You win!!!" <<endl;
 		cin.ignore();
 		player.score += players_healthbar;
@@ -67,6 +68,7 @@ void alkaline_battle(){
 	   	cin.ignore();
     }
     else{
+	clearscreen();
         cout << "You lose..." <<endl;
 		cout<<"You have been revived back to your recent checkpoint"<<endl;
 		cin.ignore();
