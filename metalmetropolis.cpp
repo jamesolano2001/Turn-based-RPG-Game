@@ -24,7 +24,7 @@ void mm_town()
 
 void mm_menu()
 {
-	mm_town();
+	mm_town();						//prints menu and ascii art
 	cout<<"Welcome to Metal Metropolis"<<endl;
 	cout<<"---------------------------"<<endl;
 	cout<<"1. Venture forth into the alleyways"<<endl;
@@ -54,7 +54,7 @@ void metalmetropolis()
 		if ( option == "2" && rest == true ){
 			cin.ignore();
 			clearscreen();
-			cout<<"zzzZZZ... zzzZZZZZzz... zzzZZZ....."<<endl;
+			cout<<"zzzZZZ... zzzZZZZZzz... zzzZZZ....."<<endl;		//randomizes chance of getting full/half rest
 			cin.ignore();
 			clearscreen();
 			if ( random == 0){
