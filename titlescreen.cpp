@@ -19,7 +19,7 @@ cout<<" \\______  /___|  /\\___  >__|_|  /__/____  >|__|  |__|   / ____|  \\____
 cout<<"        \\/     \\/     \\/      \\/        \\/              \\/              \\/              \\/        \\/"<<endl;
 }
 
-void options()
+void options()					//prints out the menu and title ascii
 {
 	title();
 	cout<<"----------------"<< endl;
@@ -30,11 +30,11 @@ void options()
 	return;
 }
 
-void credits()
+void credits()						//shows who made the game
 {
-	int wait;
+
     clearscreen();
-    cout<<"Coded by James and Wing"<<endl;
+    cout<<"Coded by James and Wing ;D"<<endl;
 	cout<<endl<<"Press any key to continue.."<<endl;
 	cin.ignore();
 	cin.get();
@@ -42,7 +42,7 @@ void credits()
 
 }
 
-bool checkInput(string option)
+bool checkInput(string option)			//checks to see if input is valid
 {
 	for (int i = 0; i < option.length();i++){
 		if (!isdigit(option[i]))
