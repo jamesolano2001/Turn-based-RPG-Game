@@ -31,7 +31,7 @@ void av_menu()
 	cout<<"Welcome to Acid Ville"<<endl;
 	cout<<"---------------------"<<endl;
 	cout<<"1. Venture forth into thee forest"<<endl;
-	cout<<"2. Rest"<<endl;
+	cout<<"2. Reset"<<endl;
 	cout<<"3. Save"<<endl;
 }
 bool avcheckInput(string option)
