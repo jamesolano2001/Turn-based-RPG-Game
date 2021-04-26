@@ -9,7 +9,6 @@ using namespace std;
 struct Player{
     string name;
     vector<int> order;
-    vector<string> inventory;
     int score;
     int stage;
     int health;
