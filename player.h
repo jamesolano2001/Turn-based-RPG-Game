@@ -14,8 +14,12 @@ struct Player{
     int stage;
     int health;
     int maxHealth;
+	void set_health( const int val)
+	{
+		maxHealth = val;
+		health = maxHealth;
+	}
 
-  
 };
 extern Player player;
 
