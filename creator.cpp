@@ -43,15 +43,15 @@ void final_battle()
         cin >> choice;
         switch(choice){
             case 'A':
-                monsters_healthbar-=10;
+                monsters_healthbar-=50;
                 players_healthbar-=50;
                 cout << "The acid monster tickles him." << endl;
                 break;
             case 'B':
-                monsters_healthbar-=10;
+                monsters_healthbar-=50;
                 break;
             case 'C':
-                players_healthbar-=100;
+                monsters_healthbar-=100;
                 cout << "One-hit KO!" << endl;
                 break;
             case 'D':
