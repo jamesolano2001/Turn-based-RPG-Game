@@ -4,6 +4,10 @@
 #include "beginning.h"
 #include "player.h"
 #include "acidville.h"
+#include "alkacity.h"
+#include "metalmetropolis.h"
+#include "chemistria.h"
+#include "clearscreen.h"
 
 using namespace std;
 
@@ -36,18 +40,42 @@ void randomgenerate()
 		townpath[i]=n;
 	}
 	for ( int i = 0; i < AMOUNT; i++){
-		player.order[i] = townpath[i];
+		player.order.push_back(townpath[i]);
 	}
-
-
 
 }
 
+
+void townpath()
+{
+	int i = 0;
+	while (i < 3){
+		switch (player.order[i]+1){
+			case 1:
+				acidville();
+				break;
+			case 2:
+				alkacity();
+				break;
+			case 3:
+				metalmetropolis();
+				break;
+		}
+		clearscreen();
+		i++;
+	}
+}
 int main()
 {
+	int i = 0;
 	struct Player player;
 	randomgenerate();
-    	titlescreen();
-	acidville();
+    titlescreen();
+	beginning();
+	townpath();
+	clearscreen();
+	chemistria();
+	cout<<"The End";
+
 
 }
