@@ -27,7 +27,7 @@ void mm_menu()
 	mm_town();
 	cout<<"Welcome to Metal Metropolis"<<endl;
 	cout<<"---------------------------"<<endl;
-	cout<<"1. Venture forth into thee alleyways"<<endl;
+	cout<<"1. Venture forth into the alleyways"<<endl;
 	cout<<"2. Rest"<<endl;
 	cout<<"3. Save"<<endl;
 }
@@ -64,7 +64,7 @@ void metalmetropolis()
 				clearscreen();
 			}
 			else{
-				cout<<"Ouch! The bed bugs have infested the house! What an awful nap!"<<endl;
+				cout<<"Ouch! The radioactive cockroache have infested the house! What an awful nap!"<<endl;
 				player.health = (player.maxHealth/2);
 				cin.ignore();
 				clearscreen();
