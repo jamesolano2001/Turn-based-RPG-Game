@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include "titlescreen.h"
 #include "clearscreen.h"
+#include "beginning.h"
 #include "load.h"
 
 
