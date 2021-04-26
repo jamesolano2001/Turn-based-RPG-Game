@@ -58,6 +58,7 @@ void chemistria()
 {
 	string option;
 	bool rest = true;
+	player.stage = 4;
 	while (true){
 		coc_menu();
 		cin >> option;
