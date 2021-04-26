@@ -18,7 +18,7 @@ Chemistry Crisis is a role-playing game, in which players can learn chemistry in
 
 -The health bar of each monster will be deducted depending on the answer.
 
--The player can heal after each battle at a town
+-The player can heal after each battle at a town by resting. However they may not get a chance to fully rest.
 
 -After defeating the final boss monster, the total score will determine the ending the player gets.
 
@@ -36,5 +36,5 @@ Chemistry Crisis is a role-playing game, in which players can learn chemistry in
 
 ### Notes
 ---
--The game is tested on the Academy11 Server*
+-The game is tested on the Academy11 Server
 -Please go in fullscreen mode before executing ./main in order to fully appreciate the ASCII art
