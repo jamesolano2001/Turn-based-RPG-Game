@@ -78,7 +78,8 @@ int main()
 	int i = 0;
 	player.set_health(100);
 	randomgenerate();
-    titlescreen();
+	clearscreen();
+    	titlescreen();
 	townpath();
 	clearscreen();
 	ending();
