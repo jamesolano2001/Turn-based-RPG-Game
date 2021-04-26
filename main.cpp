@@ -71,7 +71,6 @@ int main()
 	struct Player player;
 	randomgenerate();
     titlescreen();
-	beginning();
 	townpath();
 	clearscreen();
 	chemistria();
