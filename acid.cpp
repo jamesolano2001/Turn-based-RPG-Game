@@ -9,7 +9,7 @@ void acid_battle()
 {
 	clearscreen();
     char choice;
-    int players_healthbar=100;
+    int players_healthbar=player.health;
     int monsters_healthbar=100;
     cout<<"There is a pond in front of your house, but it was polluted by your hair dyes which contains ammonia. The fishes living in the pond evoluted to creatures that eat humans. However, you realised that they could only survive in an alkaline environment after your observation. There are 4 bottles on the shelf in your storeroom. Which would you choose to pour into the pond?"<<endl;
     cout << "Your health bar: " << players_healthbar <<endl;
@@ -60,10 +60,10 @@ void acid_battle()
     }
     cout << "B is the correct answer as toilet bowl cleaners are acidic enough to neutralize the pond." << endl;
 	cin.ignore();
-    player.score+=players_healthbar;
     if(players_healthbar>monsters_healthbar && players_healthbar!=0){
         cout << "You win!!!" <<endl;
 		cin.ignore();
+		player.score += players_healthbar;
 		cout << "Your score is " << players_healthbar <<endl;
 	   	cin.ignore();
     }
