@@ -8,7 +8,7 @@
 using namespace std;
 
 void save(){
-    //create a file with the username
+    //create and open a file with the username
     string filename=player.name+".txt";
     ofstream fout;
     fout.open(filename);
