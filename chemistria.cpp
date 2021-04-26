@@ -6,6 +6,7 @@
 #include "clearscreen.h"
 #include "chemistria.h"
 #include "creator.h"
+#include "save.h"
 
 using namespace std;
 
@@ -103,5 +104,7 @@ void chemistria()
 	}
 	if (option == "1")
 		final_battle();
+	else if (option == "3")
+		save();
 
 }
