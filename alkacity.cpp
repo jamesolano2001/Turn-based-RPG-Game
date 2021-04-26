@@ -64,11 +64,13 @@ void alkacity()
 			clearscreen();
 			if ( random == 0){
 				cout<<"Health is now full, that was a good nap!"<<endl;
+				player.health = player.maxHealth;
 				cin.ignore();
 				clearscreen();
 			}
 			else{
 				cout<<"Ouch! The bed bugs have infested the house! What an awful nap!"<<endl;
+				player.health = (player.maxHealth/2);
 				cin.ignore();
 				clearscreen();
 			}
