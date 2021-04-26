@@ -7,6 +7,7 @@
 #include "clearscreen.h"
 #include "acid.h"
 #include "save.h"
+#include "titlescreen.h"
 using namespace std;
 
 
