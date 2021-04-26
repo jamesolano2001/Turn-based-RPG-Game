@@ -46,7 +46,7 @@ void coc_menu()
 	cout<<"3. Save"<<endl;
 }
 
-bool coccheckInput(string option)
+bool coccheckInput(string option)				//checks to see if the input is valid by checking if numbers are inputted instead of letters
 {
 	for (int i = 0; i < option.length();i++){
 		if (!isdigit(option[i]))
@@ -69,7 +69,7 @@ void chemistria()
 		if ( option == "2" && rest == true ){
 			cin.ignore();
 			clearscreen();
-			cout<<"Gulp.. Gulp... Gulp......"<<endl;
+			cout<<"Gulp.. Gulp... Gulp......"<<endl;		//randomizes chance of getting full/half rest
 			cin.ignore();
 			clearscreen();
 			if ( random == 0){
@@ -86,7 +86,7 @@ void chemistria()
 			}
 			rest = false;
 		}
-		else if ( option == "2"){
+		else if ( option == "2"){		//only allows the player to get one chance of getting a rest
 			cin.ignore();
 			clearscreen();
 			cout<<"No more potions left!"<<endl;
