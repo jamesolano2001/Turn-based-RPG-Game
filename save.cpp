@@ -7,7 +7,7 @@
 using namespace std;
 
 void save(){
-  string filename=player.name+".txt"
+  string filename=player.name+".txt";
   ofstream fout;
   fout.open(filename);
   if (fout.fail()){
