@@ -17,7 +17,7 @@ void save(){
   for (int j=0; j<player.inventory.size()-1; j++){
     fout << player.inventory.at(j) << "," ;
   }
-  fout << player.inventory.at(i.size()) <<endl;
+  fout << player.inventory.at(player.inventory.size()-1) <<endl;
   fout << player.score <<endl;
   fout << player.stage <<endl;
   for (int k=0; k<2; k++){
