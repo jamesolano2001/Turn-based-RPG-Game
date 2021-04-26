@@ -84,6 +84,7 @@ int main()
 	clearscreen();
     	titlescreen();
 	townpath();
+	chemistria();
 	clearscreen();
 	ending();
 
