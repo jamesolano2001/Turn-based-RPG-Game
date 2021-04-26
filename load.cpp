@@ -134,7 +134,7 @@ int loadmh(string n){
     return mh;
 }
 
-int main(){
+void load(){
     string name;
     cout << "Welcome back, my friend:)" << endl;
     cout << "Please tell us your name" <<endl;
