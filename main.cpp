@@ -11,7 +11,7 @@
 
 using namespace std;
 
-
+// Allocates the numbers 0,1,2 to a member array randomly
 void randomgenerate()
 {
 	const int AMOUNT = 3;
@@ -47,10 +47,10 @@ void randomgenerate()
 
 }
 
-
+//This checks which town should the player should go first and then directs them to the hub
 void townpath()
 {
-	int i = 0;
+	int i = 0;	//i is the stage number
 	
 	while (i < 3){
 		player.stage = i;
@@ -78,7 +78,6 @@ void townpath()
 }
 int main()
 {
-	int i = 0;
 	player.set_health(100);
 	randomgenerate();
 	clearscreen();
