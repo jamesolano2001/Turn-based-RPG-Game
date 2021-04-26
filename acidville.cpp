@@ -7,7 +7,6 @@
 #include "clearscreen.h"
 #include "acid.h"
 #include "save.h"
-#include "titlescreen.h"
 using namespace std;
 
 
@@ -99,6 +98,5 @@ void acidville()
 	}
 	if (option =="3")
 		save();
-		titlescreen();
 
 }
