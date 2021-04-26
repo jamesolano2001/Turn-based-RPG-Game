@@ -1,6 +1,10 @@
 #include <iostream>
+#include "alkaline.h"
+#include "alkacity.h"
+#include "clearscreen.h"
 using namespace std;
-int main(){
+void alkaline_battle(){
+	clearscreen();
     char choice;
     int players_healthbar=100;
     int monsters_healthbar=100;
@@ -40,7 +44,7 @@ int main(){
                 char ans;
                 cin >> ans;
                 if(ans=='y'){
-                    return 0;
+                    return;
                 }
                 else{
                     cout<< "Invalid option" << endl;
@@ -53,11 +57,16 @@ int main(){
     }
     cout << "A is the correct answer as drain cleaners are made of sodium hydroxide, only NaOH is strong enough to neutralize and burn the monster." << endl;
     if(players_healthbar>monsters_healthbar && players_healthbar!=0){
-        cout << "You win!!!" <<endl;  
+        cout << "You win!!!" <<endl;
+		cin.ignore();
+		cout << "Your score is " << players_healthbar <<endl;
+		cin.ignore();
     }
     else{
         cout << "You lose..." <<endl;
+		cout<<"You have been revived back to your recent checkpoint"<<endl;
+		cin.ignore();
+		alkacity();
     }
-    cout << "Your score is " << players_healthbar <<endl;
-    return players_healthbar;
+    return;
 }
