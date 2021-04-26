@@ -6,7 +6,6 @@
 #include "beginning.h"
 #include "load.h"
 
-
 using namespace std;
 
 
@@ -66,14 +65,12 @@ void titlescreen()
 		}
         switch(stoi(option)){
             case 1:
-		clearscreen();
-		beginning();
-		return;
-                break;
-            case 2:
-		clearscreen();
-		load();
+				clearscreen();
+				beginning();
                 return;
+            case 2:
+				clearscreen();
+                load();
                 break;
             case 3:
                 credits();
@@ -88,6 +85,7 @@ void titlescreen()
         }
 
     }
+
 
 
 }
