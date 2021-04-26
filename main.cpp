@@ -50,6 +50,7 @@ void townpath()
 {
 	int i = 0;
 	while (i < 3){
+		i = player.stage;
 		switch (player.order[i]+1){
 			case 1:
 				acidville();
