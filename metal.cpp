@@ -56,8 +56,10 @@ void metal_battle()
           players_healthbar-=25;
         }
     }
+	cin.ignore();
     cout << "The seqence 'B C A' is the correct answer as lead only reacts with acids while zinc only reacts with steam." << endl;
     cout << "Kindly reminder: Alkalis only react with metal ions but not metals." << endl;
+	cin.ignore();
     if(players_healthbar>monsters_healthbar && players_healthbar!=0){
 	clearscreen();
         cout << "You win!!!" <<endl;
