@@ -3,7 +3,6 @@
 #include "player.h"
 #include "beginning.h"
 #include "clearscreen.h"
-#include "titlescreen.h"
 
 using namespace std;
 
@@ -134,7 +133,6 @@ void beginning()
 		cout<<"YOU DON'T HAVE A CHOICE :)"<<endl;
 		cin.ignore();
 		clearscreen();
-		titlescreen();
 	}
 	else{
 		cin.ignore();
