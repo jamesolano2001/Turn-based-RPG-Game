@@ -5,7 +5,7 @@
 #include <fstream>
 #include <iterator>
 #include <sstream>
-#inlcude "player.h"
+#include "player.h"
 
 using namespace std;
 
