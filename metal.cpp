@@ -3,6 +3,7 @@
 #include "metal.h"
 #include "clearscreen.h"
 #include "metalmetropolis.h"
+#include "player.h"
 using namespace std;
 
 
@@ -55,6 +56,7 @@ void metal_battle()
     }
     cout << "The seqence 'B C A' is the correct answer as lead only reacts with acids while zinc only reacts with steam." << endl;
     cout << "Kindly reminder: Alkalis only react with metal ions but not metals." << endl;
+    player.score+=players_healthbar;
     if(players_healthbar>monsters_healthbar && players_healthbar!=0){
         cout << "You win!!!" <<endl;
 		cin.ignore();
