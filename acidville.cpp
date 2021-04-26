@@ -98,5 +98,6 @@ void acidville()
 	}
 	if (option =="3")
 		save();
+		titlescreen();
 
 }
