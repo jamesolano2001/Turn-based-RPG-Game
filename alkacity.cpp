@@ -6,6 +6,7 @@
 #include "clearscreen.h"
 #include "alkaline.h"
 #include "save.h"
+#include "player.h"
 using namespace std;
 
 
