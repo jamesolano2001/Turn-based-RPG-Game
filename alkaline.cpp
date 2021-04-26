@@ -7,7 +7,7 @@ using namespace std;
 void alkaline_battle(){
 	clearscreen();
     char choice;
-    int players_healthbar=100;
+    int players_healthbar=player.health;
     int monsters_healthbar=100;
     cout << "This monster in front of you is contaminated by sulphuric acid, so it attacks people with its acidic saliva. The floor has 4 kinds of liquids. Which would you choose to use?"<<endl;
     cout << "Your health bar: " << players_healthbar <<endl;
@@ -57,12 +57,12 @@ void alkaline_battle(){
         }
     }
     cout << "A is the correct answer as drain cleaners are made of sodium hydroxide, only NaOH is strong enough to neutralize and burn the monster." << endl;
-    player.score+=players_healthbar;
     if(players_healthbar>monsters_healthbar && players_healthbar!=0){
         cout << "You win!!!" <<endl;
 		cin.ignore();
+		player.score += players_healthbar;
 		cout << "Your score is " << players_healthbar <<endl;
-		cin.ignore();
+	   	cin.ignore();
     }
     else{
         cout << "You lose..." <<endl;
@@ -70,6 +70,5 @@ void alkaline_battle(){
 		cin.ignore();
 		alkacity();
     }
-    
     return;
 }

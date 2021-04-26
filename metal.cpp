@@ -11,7 +11,7 @@ void metal_battle()
 {
 	clearscreen();
     string choice;
-    int players_healthbar=100;
+    int players_healthbar=player.health;
     int monsters_healthbar=100;
     cout << "When you were walking in the forest, you have been surrounded by a bunch of 'worms'. They got metallic shells as the soil is polluted by heavy metals. Their shells have 3 layers. The inner one is made of lead, then it is zinc. The outter layer is potassium. How would you attack it?" << endl;
     cout << "(please type out your answer like this: ABC )"<<endl;
@@ -56,12 +56,12 @@ void metal_battle()
     }
     cout << "The seqence 'B C A' is the correct answer as lead only reacts with acids while zinc only reacts with steam." << endl;
     cout << "Kindly reminder: Alkalis only react with metal ions but not metals." << endl;
-    player.score+=players_healthbar;
     if(players_healthbar>monsters_healthbar && players_healthbar!=0){
         cout << "You win!!!" <<endl;
 		cin.ignore();
+		player.score += players_healthbar;
 		cout << "Your score is " << players_healthbar <<endl;
-		cin.ignore();
+	   	cin.ignore();
     }
     else{
         cout << "You lose..." <<endl;
