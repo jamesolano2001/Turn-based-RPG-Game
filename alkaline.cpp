@@ -45,7 +45,9 @@ void alkaline_battle(){
                 char ans;
                 cin >> ans;
                 if(ans=='y'){
-                    return;
+                    cout<<"You have been revived back to your recent checkpoint"<<endl;
+		    cin.ignore();
+		    alkacity();
                 }
                 else{
                     cout<< "Invalid option" << endl;
