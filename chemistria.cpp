@@ -74,11 +74,13 @@ void chemistria()
 			clearscreen();
 			if ( random == 0){
 				cout<<"Health is now full, that potion was delicious!"<<endl;
+				player.health = player.maxHealth;
 				cin.ignore();
 				clearscreen();
 			}
 			else{
 				cout<<"Bleh! The potion was expired!"<<endl;
+				player.health = player.maxHealth/2;
 				cin.ignore();
 				clearscreen();
 			}
@@ -104,7 +106,7 @@ void chemistria()
 	}
 	if (option == "1")
 		final_battle();
-	else if (option == "3")
+	else if (option =="3")
 		save();
 
 }
