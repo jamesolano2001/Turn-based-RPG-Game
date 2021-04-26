@@ -3,11 +3,6 @@
 #include <cstdlib>
 #include "titlescreen.h"
 #include "clearscreen.h"
-#include "load.h"
-#include "beginning.h"
-#include "acidville.h"
-#include "alkalineville.h"
-#include "metalville.h"
 
 
 using namespace std;
@@ -46,58 +41,35 @@ void credits()
 
 }
 
+bool checkInput(string option)
+{
+	for (int i = 0; i < option.length();i++){
+		if (!isdigit(option[i]))
+			return false;
+	}
+	return true;
+}
 void titlescreen()
 {
 	clearscreen();
-    int option;
-    while ( option != 4 ){
+    string option;
+    while ( option != "4" ){
 		options();
         cout<<endl;
         cout<<"Option: ";
         cin >> option;
-        switch(option){
+		while (!checkInput(option)){
+			cout<<"Invalid input"<<endl;
+			cin >> option;
+		}
+        switch(stoi(option)){
             case 1:
 		clearscreen();
-		beginning();
+		return;
                 break;
             case 2:
 		clearscreen();
-		load();
-		switch(player.stage){
-			case 1:
-				if(player.order.at(0)=="1"){
-					acidville();
-				}
-				else if(player.order.at(0)=="2"){
-					alkalineville();
-				}
-				else if(player.order.at(0)=="3"){
-					metalville();
-				}
-				break;
-			case 2:
-				if(player.order.at(1)=="1"){
-					acidville();
-				}
-				else if(player.order.at(1)=="2"){
-					alkalineville();
-				}
-				else if(player.order.at(1)=="3"){
-					metalville();
-				}
-				break;
-			case 3:
-				if(player.order.at(2)=="1"){
-					acidville();
-				}
-				else if(player.order.at(2)=="2"){
-					alkalineville();
-				}
-				else if(player.order.at(2)=="3"){
-					metalville();
-				}
-				break;
-		}
+                return;
                 break;
             case 3:
                 credits();
