@@ -10,30 +10,6 @@
 
 using namespace std;
 
-vector<string> loadi(string n){
-    string filename=n+".txt";
-    vector<string> i;
-    ifstream fin;
-    fin.open(filename);
-    if (fin.fail()){
-        cout << "Fail loading" << endl;
-        titlescreen();
-    }
-    string line;
-    ifstream myfile(filename);
-    for (int j = 0; j <= 0; j++){
-        getline(myfile, line);
-    }
-    string item;
-    stringstream line2;
-    line2.str(line);
-    while (getline(line2, item, ',')) {
-        i.push_back(item);
-    }
-    fin.close();
-    return i;
-}
-
 int loadsc(string n){
     string filename=n+".txt";
     int sc;
@@ -41,7 +17,7 @@ int loadsc(string n){
     fin.open(filename);
     if (fin.fail()){
       cout << "Fail loading" << endl;
-      exit(1);
+      titlescreen();
     }
     string line;
     ifstream myfile(filename);
@@ -142,7 +118,6 @@ void load(){
     cin.ignore();
     getline(cin,name);
     player.name=name;
-    player.inventory = loadi(player.name);
     player.score = loadsc(player.name);
     player.stage = loadst(player.name);
     player.order = loado(player.name);
