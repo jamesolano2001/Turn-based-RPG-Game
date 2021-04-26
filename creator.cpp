@@ -2,6 +2,7 @@
 #include "creator.h"
 #include "chemistria.h"
 #include "clearscreen.h"
+#include "player.h"
 using namespace std;
 
 void creator()
@@ -33,7 +34,7 @@ void final_battle()
     creator();
     cout << "A) Summon an acidic monster to kill him" << endl;
     cout << "B) Craft a Calcium bomb" << endl;
-    cout << "C)	Fire a Plutonium-239 Grenade Launcher" << endl;
+    cout << "C) Use a Plutonium-239 RPG" << endl;
     cout << "D) Punch him with a fist full of Uranium-238" << endl;
     cout << "Q) Quit" << endl;
     while(players_healthbar>0 && monsters_healthbar>0){
