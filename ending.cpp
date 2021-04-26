@@ -69,7 +69,7 @@ void bad()
 	cout<<"Total score: "<<player.score<<endl;
 }
 
-void ending()
+void ending()				//checks to see if the player gets the good or bad ending
 {
 	clearscreen();
 	if (player.score >= 375)
