@@ -26,7 +26,7 @@ void final_battle()
 {
 	clearscreen();
     char choice;
-    int players_healthbar=100;
+    int players_healthbar=player.health;
     int monsters_healthbar=100;
     cout<<"You're final battle is against the creator! Only an attack as strong as a nuke can kill him!"<<endl;
     cout << "Your health bar: " << players_healthbar <<endl;
