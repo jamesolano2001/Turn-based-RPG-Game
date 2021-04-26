@@ -6,6 +6,7 @@
 #include "player.h"
 #include "clearscreen.h"
 #include "acid.h"
+#include "save.h"
 using namespace std;
 
 
@@ -91,5 +92,7 @@ void acidville()
 	}
 	if (option == "1")
 		acid_battle();
+	else (option == "2")
+		save();
 
 }
