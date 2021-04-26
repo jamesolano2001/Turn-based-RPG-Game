@@ -5,6 +5,7 @@
 #include "metalmetropolis.h"
 #include "clearscreen.h"
 #include "metal.h"
+#include "save.h"
 using namespace std;
 
 
@@ -87,5 +88,7 @@ void metalmetropolis()
 	}
 	if (option == "1")
 		metal_battle();
+	else if(option == "3")
+		save();
 
 }
